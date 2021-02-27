@@ -20,7 +20,7 @@ export default function App() {
         Hello
       </Text>
       <TouchableHighlight onPress={() => console.log("ImagePressed")}>
-        <Image 
+        <Image  
           source={{ 
             width: 200,
             height: 300,
