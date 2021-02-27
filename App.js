@@ -16,18 +16,7 @@ export default function App() {
   return (
 
     <SafeAreaView style={styles.container}>
-      <Text numberOfLines={1} onPress={handlePress}>
-        Hello
-      </Text>
-      <TouchableHighlight onPress={() => console.log("ImagePressed")}>
-        <Image  
-          source={{ 
-            width: 200,
-            height: 300,
-            uri: "https://picsum.photos/200/300"}}
-        />
-      </TouchableHighlight>
-      <StatusBar style="auto" />
+      
     </SafeAreaView>
 
 
