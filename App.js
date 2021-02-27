@@ -8,7 +8,7 @@ import {
   Image, 
   SafeAreaView 
 } from 'react-native';
-
+//UPDATE
 export default function App() {
   
   const handlePress = () => console.log("Test pressed");
